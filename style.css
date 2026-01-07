@@ -1,0 +1,68 @@
+.section-1,
+.section-1 * {
+  box-sizing: border-box;
+}
+
+/* .section-1 {
+  min-height: 100vh;
+  position: relative;
+  background-image: url("section-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+ .section-1 {
+  min-height: 100vh;
+  position: relative;
+  background-image: url("./img/section-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+.container-2 {
+  width: 778px;
+  height: 328px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-1 {
+  background: #010101;
+  border-radius: 5px;
+  width: 197px;
+  height: 74px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.text {
+  color: #cecdcc;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 74px;
+}
+
+.text2 {
+  color: #6b6968;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+.heading-1 {
+  color: #030202;
+  text-align: center;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 10px;
+}
